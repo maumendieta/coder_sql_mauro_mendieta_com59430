@@ -4,12 +4,13 @@
 
 ***El siguiente proyecto surge de la necesidad de armar un sistema ágil que permita realizar el seguimiento de la planta, docente y no docente, de diversos centros educativos. En base al seguimiento del personal, se pretende realizar la liquidación de sueldos de cada uno de los agentes pertenecientes a cada Escuela.*** 
 
-## Planteo inicial de la BD - D.E.R. ONTOLÓGICO *(realizado en Excalidraw)*
+## Planteo inicial de la BD - D.E.R. Ontológico *(realizado en Excalidraw)*
 ![imagen](https://github.com/maumendieta/coder_sql_mauro_mendieta_com59430/blob/main/liqui_mgm_sql59430_DER_EXCALIDRAW.jpg)
 
 ## Base de Datos: Liqui Escuela
 
 La base de datos **Liqui Escuela** está diseñada para gestionar la información de escuelas, empleados y sueldos, abarcando diferentes aspectos como cargos, asistencia, tipos de cargo y áreas específicas en cada institución. Este modelo facilita la administración de personal y la generación de reportes de sueldos, asistencia, y antigüedad de los empleados, entre otros.
+Cabe aclarar que esta base de datos es la parte inicial del Proyecto, ya que falta plantear aspectos específicos sobre la liquidación docente, lo cual, entiendo que podré ir agregando con el avance del curso.
 
 ## Estructura de la Base de Datos
 
@@ -106,15 +107,17 @@ La base de datos **Liqui Escuela** está diseñada para gestionar la informació
 
 ### Problemáticas que Resuelve el Modelo
 
-1. **Gestión de Escuelas y Empleados:** Permite almacenar información detallada de cada escuela y empleado, con soporte para cargos específicos, áreas y situaciones de revista.
+1. **Gestión de Escuelas y Empleados:** Permite almacenar información detallada de cada escuela y empleado, con detalle de cargos específicos, áreas y situaciones de revista. Esto, a su vez, permite realizar el seguimiento histórico de la planta docente.
 2. **Control de Asistencia:** La tabla `asistencia` permite registrar la asistencia de los empleados, facilitando la generación de reportes de presentismo.
 3. **Gestión de Sueldos:** La tabla `sueldo` gestiona el historial de pagos a empleados, y `emp_cargo` almacena los detalles del cargo, antigüedad y horas trabajadas, facilitando los cálculos de liquidaciones.
 4. **Organización de Cargos:** La relación entre `cargo`, `tipo_cargo`, y `area` permite una clasificación estructurada de puestos en cada escuela.
 
 Este modelo permite la centralización de la información para generar reportes de forma eficiente y precisa, resolviendo la complejidad de administrar recursos humanos en una institución educativa.
 
-
-## DIAGRAMA DE ENTIDADES Y RELACIONES *(WorkBench)*
+## D.E.R. realizado con Ingeniería Reversa *(WorkBench)*
+Este diagrama fue confeccionado al terminar de cargar el código de creación de la Base de Datos en WorkBench.
 ![imagen](https://github.com/maumendieta/coder_sql_mauro_mendieta_com59430/blob/main/liqui_mgm_sql59430_DER_WB.jpg)
+
+
 
 
