@@ -1,1 +1,7 @@
-# coder_sql_mauro_mendieta_com59430
+# PROYECTO LIQUIDACIÓN SUELDOS - ESCOLAR #
+**MENDIETA, MAURO GERMÁN**
+*COMISIÓN 59430*
+
+## OBJETIVOS ##
+
+## PLAN ##
