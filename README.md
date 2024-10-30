@@ -2,7 +2,8 @@
 **MENDIETA, MAURO GERMÁN**
 :white_check_mark: *COMISIÓN 59430*
 
-***El siguiente proyecto surge de la necesidad de armar un sistema ágil que permita realizar el seguimiento de la planta, docente y no docente, de diversos centros educativos. En base al seguimiento del personal, se pretende realizar la liquidación de sueldos de cada uno de los agentes pertenecientes a cada Escuela.*** 
+***El siguiente proyecto surge de la necesidad de armar un sistema ágil que permita realizar el seguimiento de la planta, docente y no docente, de diversos centros educativos. En base al seguimiento del personal, se pretende realizar la liquidación de sueldos de cada uno de los agentes pertenecientes a cada Escuela.
+Aunque parezca algo similar a cualquier empresa, la liquidación escolar tiene una dinámica propia que responde a la realidad cotidiana de cada Escuela. Dificilmente haya dos sueldos iguales en una misma escuela, ya que hay titulares, reemplazantes, docentes que trabajan por hora, otros que trabajan en cargos, docentes que pueden ser titulares y reemplazantes al mismo tiempo, etc. Por este motivo, es importante que el seguimiento que se realiza sobre el personal, sea lo más preciso posible para poder determinar, a fin de mes, el sueldo correspondiente a cada persona.*** 
 
 ## Planteo inicial de la BD - D.E.R. Ontológico *(realizado en Excalidraw)*
 ![imagen](https://github.com/maumendieta/coder_sql_mauro_mendieta_com59430/blob/main/liqui_mgm_sql59430_DER_EXCALIDRAW.jpg)
