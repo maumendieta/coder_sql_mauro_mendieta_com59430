@@ -106,7 +106,7 @@ Cabe aclarar que esta base de datos es la parte inicial del Proyecto, ya que fal
 - **Empleado - Cargo (emp_cargo):** Un empleado puede ocupar diferentes cargos en una o más escuelas. `emp_cargo` gestiona la relación entre `empleado` y `cargo`.
 - **Sueldo - Banco:** El sueldo está relacionado con el banco donde se realiza el depósito.
 
-### Problemáticas que Resuelve el Modelo
+## Problemáticas que Resuelve el Modelo
 
 1. **Gestión de Escuelas y Empleados:** Permite almacenar información detallada de cada escuela y empleado, con detalle de cargos específicos, áreas y situaciones de revista. Esto, a su vez, permite realizar el seguimiento histórico de la planta docente.
 2. **Control de Asistencia:** La tabla `asistencia` permite registrar la asistencia de los empleados, facilitando la generación de reportes de presentismo.
