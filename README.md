@@ -7,7 +7,7 @@
 ## PLANTEO INICIAL - D.E.R. ONTOLÓGICO *(realizado en Excalidraw)*
 ![imagen](https://github.com/maumendieta/coder_sql_mauro_mendieta_com59430/blob/main/liqui_mgm_sql59430_DER_EXCALIDRAW.jpg)
 
-# Base de Datos: Liqui Escuela
+## Base de Datos: Liqui Escuela
 
 La base de datos **Liqui Escuela** está diseñada para gestionar la información de escuelas, empleados y sueldos, abarcando diferentes aspectos como cargos, asistencia, tipos de cargo y áreas específicas en cada institución. Este modelo facilita la administración de personal y la generación de reportes de sueldos, asistencia, y antigüedad de los empleados, entre otros.
 
@@ -77,7 +77,7 @@ La base de datos **Liqui Escuela** está diseñada para gestionar la informació
 - **Descripción:** Situación del empleado respecto a su cargo.
 - **Campos:**
   - `id_sit_revista` (INT, PK, AUTO_INCREMENT): Identificador único.
-  - `situacion_revista` (VARCHAR(200)): Descripción de la situación (e.g., Activo, Licencia).
+  - `situacion_revista` (VARCHAR(200)): Descripción de la situación (por ejemplo: Titular, Reemplazante).
 
 #### `banco`
 - **Descripción:** Bancos donde los empleados tienen cuentas.
