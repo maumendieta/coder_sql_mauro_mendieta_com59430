@@ -4,7 +4,7 @@
 
 ***El siguiente proyecto surge de la necesidad de armar un sistema ágil que permita realizar el seguimiento de la planta, docente y no docente, de diversos centros educativos. En base al seguimiento del personal, se pretende realizar la liquidación de sueldos de cada uno de los agentes pertenecientes a cada Escuela.*** 
 
-## PLANTEO INICIAL - D.E.R. ONTOLÓGICO *(realizado en Excalidraw)*
+## Planteo inicial de la BD - D.E.R. ONTOLÓGICO *(realizado en Excalidraw)*
 ![imagen](https://github.com/maumendieta/coder_sql_mauro_mendieta_com59430/blob/main/liqui_mgm_sql59430_DER_EXCALIDRAW.jpg)
 
 ## Base de Datos: Liqui Escuela
